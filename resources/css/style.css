@@ -3,6 +3,10 @@ html{
   margin:auto;
 }
 
+.mobile{
+  display: none;
+}
+
 /* header */
 
 .header{
@@ -155,3 +159,103 @@ li{
 }
 
 /* Third Part */
+
+.third{
+  padding: 2rem 4.5rem;
+  background-color: grey;
+}
+
+.title{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.third .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.third .blocks{
+  background-color: white;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.third img{
+  width: 100%;
+}
+
+.third .elements{
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.elements h1{
+  margin-top: 1rem;
+}
+
+.elements p{
+  margin-top: 0.5rem;
+}
+
+/* Fourth Part */
+
+.fourth{
+  padding: 2rem 1.5rem;
+}
+
+.fourth .video{
+  width: 60%;
+  margin-right: 1.5rem;
+}
+
+.fourth .right{
+  width: 40%;
+}
+
+.fourth .content{
+  display: flex;
+
+}
+
+.fourth .right{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fourth .blocks{
+  display: flex;
+  padding: 1rem;
+}
+
+.fourth .img{
+  max-width: 35%;
+  margin-right: 1rem;
+}
+
+.fourth .ele{
+  height: 100%;
+  width: 65%;
+}
+
+.fourth img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fourth h1{
+  margin-top: 1.5rem;
+}
+
+.fourth p{
+  margin-top: 0.5rem;
+}
+/* Footer */
+
+.footer{
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
