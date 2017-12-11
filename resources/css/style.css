@@ -1,6 +1,9 @@
 html{
   max-width: 1024px;
   margin:0 auto;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(240,240,240);
+  color: rgb(0,0,0)
 }
 
 .mobile{
@@ -10,9 +13,10 @@ html{
 /* header */
 
 .header{
-  margin: auto 1.5rem;
+  padding: auto 1.5rem;
   height: 4rem;
   display: flex;
+  background-color: rgb(248, 248, 248);
 }
 
 .logo{
@@ -27,6 +31,7 @@ html{
 
 .logo h1{
   margin-top:1.5rem;
+  font-weight: bold;
 }
 
 .logo h1:before{
@@ -36,7 +41,7 @@ html{
 
 .logo h1:after{
   content:'ACADEMY';
-  color:grey;
+  color:rgb(105,105,105);
 }
 
 .logo img{
@@ -46,14 +51,16 @@ html{
 .header ul{
   display: flex;
   margin-top: 1.5rem;
+  font-weight: bold;
 }
 
 .header li{
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .header a {
-  color: grey;
+  color: rgb(105,105,105);
   text-decoration: none;
 }
 
@@ -61,8 +68,7 @@ html{
 
 .first{
   padding: 2rem 1.5rem;
-  background-color: ;
-
+  background-color: rgb(232, 232, 232);
   display: flex;
 }
 
@@ -82,6 +88,7 @@ html{
 
 .first .content h1{
   font-size: 2.5rem;
+  font-family: 'Acme', sans-serif;
 }
 
 .first .content h2{
@@ -109,7 +116,7 @@ html{
   padding: 2rem 1.5rem;
 
   display: flex;
-
+  background-color: rgb(246, 246, 246);
 }
 
 .left{
@@ -139,6 +146,7 @@ html{
 .container{
   display: flex;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 .container img{
@@ -152,23 +160,35 @@ html{
   margin-left: 1rem;
 }
 
+.container h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .container p{
   font-size: 1rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  font-weight: normal;
 }
 
+.container a{
+  text-decoration: none;
+  color: hsl(210, 100%, 50%);
+}
 /* Third Part */
 
 .third{
   padding: 2rem 4.5rem;
-  background-color: grey;
+  background-color: rgb(232, 232, 232);
 }
 
 .title{
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
 }
 
 .third .content{
@@ -193,6 +213,7 @@ html{
 }
 
 .elements h1{
+  font-weight: bold;
   margin-top: 1rem;
 }
 
@@ -200,10 +221,21 @@ html{
   margin-top: 0.5rem;
 }
 
+.elements h2{
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
 /* Fourth Part */
 
 .fourth{
   padding: 2rem 1.5rem;
+  background-color: rgb(246, 246, 246);
+}
+
+.fourth .title{
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
 }
 
 .fourth .video{
@@ -245,19 +277,24 @@ html{
   max-height: 100%;
 }
 
-.fourth h1{
-  margin-top: 1.5rem;
+
+.ele h1{
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .fourth p{
   margin-top: 0.5rem;
 }
+
 /* Footer */
 
 .footer{
   padding: 2rem 1.5rem;
   display: flex;
   justify-content: space-between;
+  font-size: 0.8rem;
 }
 
 
@@ -294,6 +331,10 @@ html{
     max-width: 100%;
   }
 
+  .mobile nav{
+    background-color: rgb(248, 248, 248);
+  }
+
   .mobile img{
     max-width: 100%;
 
@@ -310,21 +351,26 @@ html{
   }
 
   .mobile .one{
-    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+    background-color: rgb(248, 248, 248);
   }
 
   .one h1{
     font-size: 2rem;
     margin-bottom: 2rem;
+    font-family: 'Acme', sans-serif;
   }
 
   .mobile .block{
     margin-top: 1.5rem ;
-    background-color: grey;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    font-weight: bolder;
   }
 
   .mobile .two{
-    margin: 1rem 1rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
   }
 
   .blocks .con{
@@ -340,9 +386,13 @@ html{
     padding-bottom: 0.5rem;
   }
 
+  .blocks{
+    background-color: white;
+  }
+
   .mobile .three{
     padding: 1rem;
-
+    background-color: rgb(248, 248, 248);
   }
 
   .three .title{
@@ -352,21 +402,30 @@ html{
 
   a{
     text-decoration: none;
+    color: black;
   }
 
   .three .nav{
-    background-color: grey;
+    background-color: rgb(229,230,255);
     padding: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .four .title{
     margin: 1rem;
+    font-size: 2rem;
   }
 
   .m-footer{
     padding: 1rem;
+    padding-top: 2rem;
     text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .title{
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
   }
 
 }
