@@ -1,6 +1,6 @@
 html{
   max-width: 1024px;
-  margin:auto;
+  margin:0 auto;
 }
 
 .mobile{
@@ -43,12 +43,12 @@ html{
 
 }
 
-nav ul{
+.header ul{
   display: flex;
   margin-top: 1.5rem;
 }
 
-li{
+.header li{
   margin-left: 1rem;
 }
 
@@ -258,4 +258,115 @@ li{
   padding: 2rem 1.5rem;
   display: flex;
   justify-content: space-between;
+}
+
+
+/* Mobile Section*/
+
+@media only screen and (max-width: 470px){
+
+  .header{
+    display: none;
+  }
+
+  .first{
+    display: none;
+  }
+
+  .second{
+    display: none;
+  }
+
+  .third{
+    display: none;
+  }
+
+  .fourth{
+    display: none;
+  }
+
+  .footer{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+    max-width: 100%;
+  }
+
+  .mobile img{
+    max-width: 100%;
+
+  }
+
+  .mobile ul {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+
+  .mobile li{
+    margin-left:3rem;
+  }
+
+  .mobile .one{
+    margin: 2rem 1rem;
+  }
+
+  .one h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .mobile .block{
+    margin-top: 1.5rem ;
+    background-color: grey;
+  }
+
+  .mobile .two{
+    margin: 1rem 1rem;
+  }
+
+  .blocks .con{
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .blocks h3{
+    padding-bottom: 0.5rem;
+  }
+
+  .blocks p{
+    padding-bottom: 0.5rem;
+  }
+
+  .mobile .three{
+    padding: 1rem;
+
+  }
+
+  .three .title{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .three .nav{
+    background-color: grey;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .four .title{
+    margin: 1rem;
+  }
+
+  .m-footer{
+    padding: 1rem;
+    text-align: center;
+  }
+
 }
